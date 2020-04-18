@@ -17,13 +17,12 @@ class SelectionCard extends StatelessWidget {
     @required this.backgroundHeroTag,
     @required this.contentHeader,
     @required this.contentText,
-    @required this.onTap,
+     this.onTap,
     Key key,
   })  : assert(backgroundColor != null),
         assert(backgroundHeroTag != null),
         assert(contentHeader != null),
         assert(contentText != null),
-        assert(onTap != null),
         super(key: key);
 
   BorderRadiusGeometry get _selectionCardBorderRadius =>
@@ -67,7 +66,7 @@ class SelectionCard extends StatelessWidget {
               height: selectionCardHeight,
               width: double.infinity,
             ),
-            onTap: onTap,
+            onTap: () {},
           ),
         ),
       ],
