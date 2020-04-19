@@ -29,7 +29,7 @@ class MainMenu extends StatelessWidget {
                     _,
                     AsyncSnapshot<List<DesignPatternCategory>> snapshot,
                   ) {
-                    print(snapshot.connectionState);
+//                    print(snapshot.connectionState);
                     if(snapshot.connectionState == ConnectionState.waiting) {
                       return CircularProgressIndicator(
                         backgroundColor: lightBackgroundColor,
@@ -40,7 +40,9 @@ class MainMenu extends StatelessWidget {
                     }
 
                     if(snapshot.connectionState == ConnectionState.done) {
+//                      print('done');
                       if (snapshot.hasData) {
+//                        print('hasData');
                         return Column(
                           crossAxisAlignment: CrossAxisAlignment.center,
                           children: <Widget>[
