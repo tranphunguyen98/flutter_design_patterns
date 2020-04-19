@@ -6,11 +6,14 @@
  import 'package:design_patterns/widgets/selection_card.dart';
 
  class DesignPatternCard extends StatelessWidget {
-   final DesignPattern designPattern;
+   final DesignPattern designPattern = DesignPattern(title: 'title',
+   id: 'id',
+   description: 'description',
+   route: '/t');
 
-   const DesignPatternCard({
-     @required this.designPattern,
-   }) : assert(designPattern != null);
+//   const DesignPatternCard({
+//     @required this.designPattern,
+//   }) : assert(designPattern != null);
 
    @override
    Widget build(BuildContext context) {

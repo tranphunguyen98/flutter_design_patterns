@@ -6,20 +6,14 @@
  import 'package:design_patterns/widgets/selection_card.dart';
 
  class MainMenuCard extends StatelessWidget {
-//   final DesignPatternCategory category;
+   final DesignPatternCategory category;
 
-//   const MainMenuCard({
-//     @required this.category,
-//   }) : assert(category != null);
+   const MainMenuCard({
+     @required this.category,
+   }) : assert(category != null);
 
    @override
    Widget build(BuildContext context) {
-     DesignPatternCategory category = DesignPatternCategory(
-       color: 0xFFF3D250,
-       id: '1',
-       patterns: null,
-       title: 'title'
-     );
 
      var contentHeader = Text(
        category.title,
@@ -30,10 +24,9 @@
        overflow: TextOverflow.ellipsis,
      );
      var contentText = Text(
-//       category.patterns.length == 1
-//           ? '${category.patterns.length} pattern'
-//           : '${category.patterns.length} patterns',
-     '1 pattern',
+       category.patterns.length == 1
+           ? '${category.patterns.length} pattern'
+           : '${category.patterns.length} patterns',
        style: Theme.of(context).textTheme.subhead.copyWith(
              color: Colors.white,
            ),

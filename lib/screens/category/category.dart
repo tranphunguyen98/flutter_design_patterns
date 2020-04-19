@@ -10,7 +10,7 @@ import 'package:design_patterns/widgets/platform_back_button.dart';
 
 class Category extends StatefulWidget {
 //   final DesignPatternCategory category;
-
+//
 //   const Category({
 //     @required this.category,
 //     Key key,
@@ -139,6 +139,8 @@ class _CategoryState extends State<Category>
 //                            ),
 //                          ),
                       const SizedBox(height: spaceL),
+                  DesignPatternCard(
+                  ),
 
 //                          for (var i = 0;
 //                              i < widget.category.patterns.length;

@@ -5,10 +5,10 @@
         "color": "0xFFF3D250",
         "patterns": [
             {
-                "id": "introduction",
-                "title": "Introduction",
-                "description": "Laborum qui ea velit sint officia culpa aute ad sint fugiat excepteur ex pariatur consectetur.",
-                "route": "/introduction"
+                "id": "singleton",
+                "title": "Singleton",
+                "description": "Đảm bảo một class chỉ có một instance, và cung cấp một global point để truy cập vào chúng.",
+                "route": "/singleton"
             }
         ]
     },
