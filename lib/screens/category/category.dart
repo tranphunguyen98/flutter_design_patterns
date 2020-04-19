@@ -139,6 +139,7 @@ class _CategoryState extends State<Category>
 //                            ),
 //                          ),
                       const SizedBox(height: spaceL),
+
 //                          for (var i = 0;
 //                              i < widget.category.patterns.length;
 //                              i++)

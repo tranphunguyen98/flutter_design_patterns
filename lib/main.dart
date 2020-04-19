@@ -1,5 +1,5 @@
 import 'package:design_patterns/screens/category/category.dart';
-import 'package:design_patterns/screens/main_menu/main_menu_me.dart';
+import 'package:design_patterns/screens/main_menu/main_menu.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -22,11 +22,11 @@ class _AppState extends State<App> {
       title: 'Design Patterns App',
       theme: lightTheme,
 
-      // onGenerateRoute: Router.generateRoute,
+       onGenerateRoute: Router.generateRoute,
 
       // initialRoute: initialRoute,
-      home: MainMenuMe(),
-      // debugShowCheckedModeBanner: false,
+      home: MainMenu(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }

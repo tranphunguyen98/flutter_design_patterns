@@ -50,6 +50,7 @@
        backgroundHeroTag: "${category.id}_background",
        contentHeader: contentHeader,
        contentText: contentText,
+       onTap: onSelectionCardTap,
      );
    }
  }
