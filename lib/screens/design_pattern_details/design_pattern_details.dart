@@ -90,7 +90,6 @@ class _DesignPatternDetailsState extends State<DesignPatternDetails>
 
   @override
   Widget build(BuildContext context) {
-    print(widget.designPattern.id);
     return Scaffold(
       bottomNavigationBar: FadeSlideTransition(
         controller: _fadeSlideAnimationController,

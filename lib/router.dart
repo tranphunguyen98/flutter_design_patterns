@@ -1,3 +1,4 @@
+import 'package:design_patterns/widgets/design_patterns/singleton/singleton_example.dart';
 import 'package:flutter/material.dart';
 
 import 'package:design_patterns/constants.dart';
@@ -25,7 +26,7 @@ class Router {
       case _DesignPatternRoutes.singletonRoute:
         return _buildDesignPatternDetailsPageRoute(
           settings,
-          Text('Test singleton'),
+          SingletonExample(),
         );
       default:
         return MaterialPageRoute(

@@ -8,6 +8,7 @@
 
 The diagram shows only the Singleton implementation by definition (_ExampleStateByDefinition_ class). This class diagram is selected because it represents a general Singleton's class diagram the most accurately.
 
+_diagram chỉ hiển thị Singleton implementation bởi definition (__ExampleStateByDefinition__ class). Class diagram này được chọn bởi vì nó đại diện chính xác nhất cho class diagram của Singleton._
 ![Singleton Implementation Class Diagram](resource:assets/images/singleton/singleton_implementation.png)
 
 ### ExampleStateBase
