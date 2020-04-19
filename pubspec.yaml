@@ -22,11 +22,12 @@ dev_dependencies:
 flutter:
 
   uses-material-design: true
-  
+
   assets:
     - assets/
     - assets/data/
     - assets/markdown/
+    - assets/images/singleton/
   fonts:
     - family: Roboto
       fonts:

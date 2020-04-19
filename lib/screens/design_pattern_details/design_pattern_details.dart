@@ -27,7 +27,7 @@ class DesignPatternDetails extends StatefulWidget {
 
 class _DesignPatternDetailsState extends State<DesignPatternDetails>
     with TickerProviderStateMixin {
-//   final MarkdownRepository repository = MarkdownRepository();
+  final MarkdownRepository repository = MarkdownRepository();
 
   final double _contentAnimationIntervalStart = 0.65;
   final double _preferredAppBarHeight = 56.0;
@@ -90,6 +90,7 @@ class _DesignPatternDetailsState extends State<DesignPatternDetails>
 
   @override
   Widget build(BuildContext context) {
+    print(widget.designPattern.id);
     return Scaffold(
       bottomNavigationBar: FadeSlideTransition(
         controller: _fadeSlideAnimationController,
@@ -200,8 +201,7 @@ class _DesignPatternDetailsState extends State<DesignPatternDetails>
                                 end: 1.0,
                                 child: FutureBuilder(
                                   future:
-//                                       repository.get(widget.designPattern.id)
-                                      null,
+                                      repository.get(widget.designPattern.id),
                                   initialData: "",
                                   builder: (_, AsyncSnapshot<String> snapshot) {
                                     if (snapshot.hasData) {

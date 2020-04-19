@@ -1,9 +1,5 @@
-import 'package:design_patterns/screens/category/category.dart';
 import 'package:design_patterns/screens/main_menu/main_menu.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-
-import 'package:design_patterns/constants.dart';
 import 'package:design_patterns/router.dart';
 import 'package:design_patterns/themes.dart';
 

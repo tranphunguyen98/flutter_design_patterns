@@ -1,27 +1,27 @@
 [
-    {
-        "id": "creational",
-        "title": "Creational",
-        "color": "0xFFF3D250",
-        "patterns": [
-            {
-                "id": "singleton",
-                "title": "Singleton",
-                "description": "Đảm bảo một class chỉ có một instance, và cung cấp một global point để truy cập vào chúng.",
-                "route": "/singleton"
-            }
-        ]
-    },
-    {
-        "id": "structural",
-        "title": "Structural",
-        "color": "0xFF90CCF4",
-        "patterns": []
-    },
-    {
-        "id": "behavioral",
-        "title": "Behavioral",
-        "color": "0xFFF78888",
-        "patterns": []
-    }
+  {
+    "id": "creational",
+    "title": "Creational",
+    "color": "0xFFF3D250",
+    "patterns": [
+      {
+        "id": "singleton",
+        "title": "Singleton",
+        "description": "Đảm bảo một class chỉ có một instance, và cung cấp một global point để truy cập vào chúng.",
+        "route": "/singleton"
+      }
+    ]
+  },
+  {
+    "id": "structural",
+    "title": "Structural",
+    "color": "0xFF90CCF4",
+    "patterns": []
+  },
+  {
+    "id": "behavioral",
+    "title": "Behavioral",
+    "color": "0xFFF78888",
+    "patterns": []
+  }
 ]
