@@ -1,3 +1,4 @@
+import 'package:design_patterns/widgets/design_patterns/adapter/adapter_example.dart';
 import 'package:design_patterns/widgets/design_patterns/singleton/singleton_example.dart';
 import 'package:flutter/material.dart';
 
@@ -28,6 +29,12 @@ class Router {
           settings,
           SingletonExample(),
         );
+    // Structural
+      case _DesignPatternRoutes.adapterRoute:
+        return _buildDesignPatternDetailsPageRoute(
+          settings,
+          AdapterExample(),
+        );
       default:
         return MaterialPageRoute(
           builder: (_) => MainMenu(),
@@ -51,4 +58,5 @@ class Router {
 
 class _DesignPatternRoutes {
   static const String singletonRoute = '/singleton';
+  static const String adapterRoute = '/adapter';
 }

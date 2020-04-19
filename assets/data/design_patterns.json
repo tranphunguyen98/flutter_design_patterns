@@ -7,7 +7,7 @@
       {
         "id": "singleton",
         "title": "Singleton",
-        "description": "Đảm bảo một class chỉ có một instance, và cung cấp một global point để truy cập vào chúng.",
+        "description": "Ensure a class only has one instance, and provide a global point of access to it.",
         "route": "/singleton"
       }
     ]
@@ -16,7 +16,14 @@
     "id": "structural",
     "title": "Structural",
     "color": "0xFF90CCF4",
-    "patterns": []
+    "patterns": [
+      {
+        "id": "adapter",
+        "title": "Adapter",
+        "description": "Convert the interface of a class into another interface clients expect. Adapter lets classes work together that couldn't otherwise because of incompatible interfaces.",
+        "route": "/adapter"
+      }
+    ]
   },
   {
     "id": "behavioral",
